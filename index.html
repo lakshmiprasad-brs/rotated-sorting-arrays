@@ -37,9 +37,20 @@
      
       <p class="text-start">
         A rotated sorted array is an array that was originally sorted in ascending order, but then some number of elements were shifted to the left. For example, the array would be considered a rotated sorted array if
-         it was originally sorted in ascending order and then rotated 4 times.
+         it was originally sorted in ascending order and then rotated.
       </p>
-     
+      <div class="container">
+        <label for="inputArray">Enter Rotated Sorted Array:</label>
+        <input type="text" id="inputArray" placeholder="e.g., 4,5,6,7,0,1,2,3">
+        
+        <label for="inputTarget">Enter Target Value:</label>
+        <input type="text" id="inputTarget" placeholder="e.g., 0">
+    
+       <button type="button" class="btn btn-primary"  onclick="searchRotatedArray()">Search</button>
+
+    
+        <div id="result"></div>
+    </div>
       
     </main>
 
@@ -62,5 +73,6 @@
       </div>
     </footer>
     <script src="assets/js/sorting.js"></script>
+    <script src="assets/js/theme.js"></script>
   </body>
 </html>
